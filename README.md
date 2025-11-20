@@ -57,7 +57,7 @@ Z > +2 → Go short the spread
 
 The script tracks daily PnL, cumulative returns, Sharpe ratio, and drawdowns, and plots performance.
 
-🧠 Why the PnL Looks Flat (and Then Moves)
+Why the PnL Looks Flat (and Then Moves)
 
 The PnL is flat for years because KO and PEP almost never drift far enough apart to hit the ±2σ entry thresholds.
 
@@ -69,7 +69,7 @@ This is completely normal for threshold-based mean-reversion strategies:
 
 quiet periods → sudden activity when the spread finally breaks out.
 
-📊 What the Script Outputs
+What the Script Outputs
 
 Cointegration statistic & p-value
 
@@ -85,13 +85,13 @@ Sample of price data
 
 A plot of cumulative PnL
 
-📂 Project Structure
+Project Structure
 pair_trading_strategy.py
 requirements.txt
 README.md
 .venv/
 
-🏃 How to Run
+ How to Run
 1. Activate the virtual environment
 cd ~/Downloads/CS
 source .venv/bin/activate
